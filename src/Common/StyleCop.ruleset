@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="Expense Rule Set" Description="Правила анализа кода для продукта Expense" ToolsVersion="15.0">
+  <IncludeAll Action="Error" />
+  <Rules AnalyzerId="Microsoft.CodeAnalysis.CSharp" RuleNamespace="Microsoft.CodeAnalysis.CSharp">
+    <Rule Id="CS0078" Action="Error" />
+    <Rule Id="CS0105" Action="Error" />
+    <Rule Id="CS0108" Action="Error" />
+    <Rule Id="CS0109" Action="Error" />
+    <Rule Id="CS0114" Action="Error" />
+    <Rule Id="CS0162" Action="Error" />
+    <Rule Id="CS0164" Action="Error" />
+    <Rule Id="CS0168" Action="Error" />
+    <Rule Id="CS0183" Action="Error" />
+    <Rule Id="CS0184" Action="Error" />
+    <Rule Id="CS0197" Action="Error" />
+    <Rule Id="CS0219" Action="Error" />
+    <Rule Id="CS0251" Action="Error" />
+    <Rule Id="CS0252" Action="Error" />
+    <Rule Id="CS0253" Action="Error" />
+    <Rule Id="CS0278" Action="Error" />
+    <Rule Id="CS0279" Action="Error" />
+    <Rule Id="CS0280" Action="Error" />
+    <Rule Id="CS0282" Action="Error" />
+    <Rule Id="CS0419" Action="Error" />
+    <Rule Id="CS0420" Action="Error" />
+    <Rule Id="CS0435" Action="Error" />
+    <Rule Id="CS0436" Action="Error" />
+    <Rule Id="CS0437" Action="Error" />
+    <Rule Id="CS0440" Action="Error" />
+    <Rule Id="CS0458" Action="Error" />
+    <Rule Id="CS0464" Action="Error" />
+    <Rule Id="CS0469" Action="Error" />
+  </Rules>
+  <Rules AnalyzerId="StyleCop.Analyzers" RuleNamespace="StyleCop.Analyzers">
+    <Rule Id="SA0001" Action="Hidden" />
+    <Rule Id="SA1002" Action="Error" />
+	<Rule Id="SA1101" Action="None" />
+    <Rule Id="SA1108" Action="Error" />
+    <Rule Id="SA1115" Action="Error" />
+    <Rule Id="SA1116" Action="Error" />
+    <Rule Id="SA1118" Action="Error" />
+    <Rule Id="SA1123" Action="Error" />
+    <Rule Id="SA1129" Action="Error" />
+    <Rule Id="SA1200" Action="Error" />
+    <Rule Id="SA1201" Action="Error" />
+    <Rule Id="SA1202" Action="Error" />
+    <Rule Id="SA1208" Action="Error" />
+    <Rule Id="SA1300" Action="Error" />
+    <Rule Id="SA1306" Action="Error" />
+    <Rule Id="SA1308" Action="Error" />
+    <Rule Id="SA1309" Action="Error" />
+    <Rule Id="SA1310" Action="Error" />
+    <Rule Id="SA1311" Action="Error" />
+    <Rule Id="SA1401" Action="Error" />
+    <Rule Id="SA1402" Action="Error" />
+    <Rule Id="SA1407" Action="Error" />
+    <Rule Id="SA1408" Action="Error" />
+    <Rule Id="SA1413" Action="None" />
+    <Rule Id="SA1516" Action="Error" />
+    <Rule Id="SA1518" Action="Error" />
+    <Rule Id="SA1600" Action="None" />
+    <Rule Id="SA1601" Action="Error" />
+    <Rule Id="SA1602" Action="Error" />
+    <Rule Id="SA1604" Action="Error" />
+    <Rule Id="SA1611" Action="Error" />
+    <Rule Id="SA1612" Action="Error" />
+    <Rule Id="SA1615" Action="Error" />
+    <Rule Id="SA1623" Action="Error" />
+    <Rule Id="SA1633" Action="None" />
+    <Rule Id="SA1649" Action="Error" />
+    <Rule Id="SA1652" Action="Error" />
+    <Rule Id="SX1101" Action="Error" />
+    <Rule Id="SX1309" Action="Error" />
+  </Rules>
+</RuleSet>
