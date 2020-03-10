@@ -9,7 +9,7 @@
 - установить dotnet-ef выполнив скрипт scripts/tools/install dotnet-ef tool.cmd
 - скачать chromedriver.exe для Selenium выполнив скрипт scripts/selenium/install chromdriver.ps1
 - убедиться что установлен MySql версии 5.7.29, скорректировать строку подключения к БД в файлах appsettings.json
-- выполнить миграцию БД scripts/migrations/addInitialMigration.cmd
+- накатить миграцию в БД scripts/migrations/update.cmd
 - при желании изменить расписание запуска граббера скорректировать CRON в настройках
 - при желании установить граббер как сервис (см. scripts/svc/*.cmd)
 
