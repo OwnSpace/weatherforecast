@@ -6,10 +6,10 @@
 - WinForms-приложение просмотра прогноза погоды
 
 Перед запуском необходимо:
-- установить dotnet-ef выполнив скрипт scripts/tools/install dotnet-ef tool.cmd
-- скачать chromedriver.exe для Selenium выполнив скрипт scripts/selenium/install chromdriver.ps1
+- установить dotnet-ef [выполнив скрипт](https://github.com/OwnSpace/weatherforecast/blob/master/scripts/tools/install%20dotnet-ef%20tool.cmd)
+- скачать chromedriver.exe для Selenium [выполнив скрипт](https://github.com/OwnSpace/weatherforecast/blob/master/scripts/selenium/install%20chromdriver.ps1)
 - убедиться что установлен MySql версии 5.7.29, скорректировать строку подключения к БД в файлах appsettings.json
-- накатить миграцию в БД scripts/migrations/update.cmd
+- [накатить миграцию в БД](https://github.com/OwnSpace/weatherforecast/blob/master/scripts/migrations/update.cmd)
 - при желании изменить расписание запуска граббера скорректировать CRON в настройках
 - при желании установить граббер как сервис (см. scripts/svc/*.cmd)
 
