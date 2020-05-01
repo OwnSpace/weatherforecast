@@ -20,7 +20,7 @@ namespace WeatherForecast.Services
 
         private CronExpression CronExpression { get; }
 
-        protected override async Task ExecuteAsync(CancellationToken stoppingToken)
+        protected sealed override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
             while (!stoppingToken.IsCancellationRequested)
             {
